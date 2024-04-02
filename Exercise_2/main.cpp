@@ -21,7 +21,7 @@ int main()
     C z5(null,-im);
     C Null(null,null);
 
-//Eseguo alcuni output per verificare la correttezza della struttura
+// Eseguo alcuni output per verificare la correttezza della struttura
 
     // Stampa di tutti i possibili casi di parte reale e immaginaria
     cout <<"z1 = "<< z1 <<"\n";
@@ -36,7 +36,7 @@ int main()
 
     // Stampa di confronti fra numeri complessi
     bool F = z1 == z2;
-    cout <<"z1 != z2: " << boolalpha << F <<"\n";
+    cout <<"z1 == z2: " << boolalpha << F <<"\n";
     C z1_eps(re+null,im+null);
     bool T = z1==z1_eps;
     cout <<"z1 == z1_eps:  " << boolalpha << T <<"\n";
